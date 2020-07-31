@@ -1,0 +1,23 @@
+server:
+  port: 7002
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: nacos-sso-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+# mybatis
+mybatis:
+  mapper-locations: classpath*:sso/*.xml
+  type-aliases-package: com.kirito.cloud.sso.model

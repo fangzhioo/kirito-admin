@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="kirito-mbg" />
         <module name="kirito-demo" />
+        <module name="kirito-sso" />
+        <module name="kirito-portal" />
         <module name="kirito-common" />
       </profile>
     </annotationProcessing>
@@ -14,6 +17,9 @@
       <module name="kirito-admin" target="1.8" />
       <module name="kirito-common" target="1.8" />
       <module name="kirito-demo" target="1.8" />
+      <module name="kirito-mbg" target="1.8" />
+      <module name="kirito-portal" target="1.8" />
+      <module name="kirito-sso" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
