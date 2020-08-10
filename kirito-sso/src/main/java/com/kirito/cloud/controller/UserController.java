@@ -1,10 +1,10 @@
 package com.kirito.cloud.controller;
 
 import com.kirito.cloud.CommonResult;
-import com.kirito.cloud.pojo.LoginUser;
-import com.kirito.cloud.pojo.RegisterUser;
+import com.kirito.cloud.sso.pojo.bo.LoginUserBO;
+import com.kirito.cloud.sso.pojo.bo.RegisterUserBO;
 import com.kirito.cloud.service.CloudUserService;
-import com.kirito.cloud.sso.pojo.SsoUserBO;
+import com.kirito.cloud.sso.pojo.bo.SsoUserBO;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -21,13 +21,13 @@ public class UserController {
     }
 
     @PostMapping("/auth")
-    public CommonResult<SsoUserBO> authUser(@RequestBody LoginUser loginUser){
-        return cloudUserService.login(loginUser);
+    public CommonResult<SsoUserBO> authUser(@RequestBody LoginUserBO loginUserBO){
+        return cloudUserService.login(loginUserBO);
     }
 
     @PostMapping("/register")
-    public CommonResult<Integer> register(@RequestBody RegisterUser registerUser){
-        return cloudUserService.register(registerUser);
+    public CommonResult<Integer> register(@RequestBody RegisterUserBO registerUserBO){
+        return cloudUserService.register(registerUserBO);
     }
 
 }

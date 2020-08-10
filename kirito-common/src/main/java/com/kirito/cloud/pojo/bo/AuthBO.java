@@ -1,6 +1,6 @@
 package com.kirito.cloud.pojo.bo;
 
-import com.kirito.cloud.sso.pojo.SsoUserBO;
+import com.kirito.cloud.sso.pojo.bo.SsoUserBO;
 import lombok.Data;
 
 @Data

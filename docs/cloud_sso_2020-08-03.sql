@@ -1,0 +1,63 @@
+# ************************************************************
+# Sequel Pro SQL dump
+# Version 4541
+#
+# http://www.sequelpro.com/
+# https://github.com/sequelpro/sequelpro
+#
+# Host: 49.234.214.14 (MySQL 5.7.29)
+# Database: cloud_sso
+# Generation Time: 2020-08-03 08:41:28 +0000
+# ************************************************************
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+
+# Dump of table cloud_user
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `cloud_user`;
+
+CREATE TABLE `cloud_user` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `username` varchar(100) NOT NULL DEFAULT '' COMMENT '用户名',
+  `password` varchar(200) NOT NULL DEFAULT '' COMMENT '密码',
+  `nickname` varchar(100) DEFAULT 'cloud_user' COMMENT '昵称',
+  `avatar` text COMMENT '头像',
+  `signature` varchar(300) DEFAULT '啥也没留下，太懒了?～' COMMENT '签名',
+  `email` varchar(200) DEFAULT '' COMMENT '邮箱',
+  `phone` varchar(50) DEFAULT '' COMMENT '手机号',
+  `created_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '注册时间',
+  `modify_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+LOCK TABLES `cloud_user` WRITE;
+/*!40000 ALTER TABLE `cloud_user` DISABLE KEYS */;
+
+INSERT INTO `cloud_user` (`id`, `username`, `password`, `nickname`, `avatar`, `signature`, `email`, `phone`, `created_time`, `modify_time`)
+VALUES
+	(1,'kirito','123456','桐人','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAIAAAC2BqGFAAAA6ElEQVR42u3ZSREAIAwAMQzjAw2oRAIeGO5mpwJo+iQ1bSkhAA1aoEGDFmjQAv0odM1leF7kWLcvaNCgQYMGDRo0aNCgQYMGDRo0aNCgQYMGDRo0aNDxoE8d6c43gwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYdD9rnLGjQoEGDBg0aNGjQoEGDBg0aNGjQoEGDBg0aNGjQsaGjDWjQoEGDBg0aNGjQoEGDBg0aNGjQoEGDBg0aNGjQP0JrVqBBgxZo0KARgAYt0KBBCzRogQYNWqBBCzRo0AINWqBBgxZo0AJ9ZR3K68Nt+q9iKgAAAABJRU5ErkJggg==','哈哈哈✨','kirito@gmail.com','1','2020-04-30 11:42:19','2020-07-31 08:15:51'),
+	(2,'yasina','123456','亚丝娜','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAIAAAC2BqGFAAAA3UlEQVR42u3ZsQ0AIAgAQYd0HPdyLUewttUEg96HHnItZSikggA0aIEGDVqgQQt0UuhW+/acnPXeXtCgQYMGDRo0aNCgQYMGDRo0aNCgQYMGDRo0aNCgc0Ir6Dkr0KAFGjRogQYt0KBBCzRogQYNWqBBCzTopVvPWdCgQYMGDRo0aNCgQYMGDRo0aNCgQYMGDRo0aNCgQYMGDRo0aNCgQYMGDRo0aNCgQYMGDRo0aNCgQYMGDRq0QIMWaNCgBRq0QIMGLdCgBRo0aIEGLdCgQQs0aIEGDVqgQQs06E+aRT8yXQwj+mwAAAAASUVORK5CYII=','嘿嘿?','sasina@gmail.com','2','2020-05-12 15:32:06','2020-07-31 08:16:04'),
+	(3,'narito','123456','漩涡鸣人','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAIAAAC2BqGFAAAA6ElEQVR42u3bWQ0AIAwFQfRiA0coQwIeCEcbZlMDb/5bhq5UEIAGLdCgQQs0aIFOCl1bX76MHOf2ggYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNOsZg0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBB34LOiAUaNGjQoEGDBg0aNGjQoEGDBg0aNGjQoEGDBg0aNOh9vRoc8wkVNGjQoEGDBg0aNGjQoEGDBg0aNGjQoEGDBg0aNOj/oAUaNGiBBi3QoEELNGiBBg1aoEELNGjQAg1aoEGDFmjQAg0atECHbwJoZuUqqGNkFwAAAABJRU5ErkJggg==','啥也没留下，太懒了?～','naroto@gmail.com','','2020-05-12 08:09:40','2020-07-31 08:16:17'),
+	(7,'start@startdt.com','123456','start','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAIAAAC2BqGFAAAA+UlEQVR42u3cUQ3AIAxAQUzO2jzgrhLQsI2MUu6lAujxSUIL/VJDABq0QIMGLdCgBRr0o65+vx7QoEGDBg0aNGjQoEGDBg0aNGjQoEGDBg0aNGjQoEHPg/6y8CqsnGcGDRo0aNCgQYMGDRo0aNCgQYMGDRo0aNCgQYMGDXpP6B0XzvmwCxo0aNCgQYMGDRo0aNCgQYMGDRo0aNCgQYMGDRr0edCrLinnRqBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBB+5u0+oAGDRo0aNCgQYMGDRo0aNCgQYMGDRo0aNCgQYMGXRFaxV/BQQs0aIEGDVqgQStiAHt/Oy7H/4KqAAAAAElFTkSuQmCC','啥也没留下，太懒了?～','start@startdt.com','','2020-07-31 09:59:25','2020-07-31 09:59:25');
+
+/*!40000 ALTER TABLE `cloud_user` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

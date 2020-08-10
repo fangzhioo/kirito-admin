@@ -1,4 +1,4 @@
-package com.kirito.cloud.sso.pojo;
+package com.kirito.cloud.sso.pojo.bo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

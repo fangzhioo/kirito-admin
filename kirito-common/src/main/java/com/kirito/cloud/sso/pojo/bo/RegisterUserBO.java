@@ -1,4 +1,4 @@
-package com.kirito.cloud.pojo;
+package com.kirito.cloud.sso.pojo.bo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class RegisterUser {
+public class RegisterUserBO {
     private String email;
     private String nickName;
     private String password;

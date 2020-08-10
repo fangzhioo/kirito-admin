@@ -2,6 +2,8 @@ server:
   port: 7001
 
 spring:
+  profiles:
+    active: local
   application:
     name: nacos-portal-service
   cloud:
@@ -14,6 +16,11 @@ management:
     web:
       exposure:
         include: '*'
+
+# mybatis
+mybatis:
+  mapper-locations: classpath*:portal/*.xml
+  type-aliases-package: com.kirito.cloud.portal.model
 
 # server-list
 server-url:

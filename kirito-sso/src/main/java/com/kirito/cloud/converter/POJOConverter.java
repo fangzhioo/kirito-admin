@@ -2,7 +2,7 @@ package com.kirito.cloud.converter;
 
 import cn.hutool.core.date.DateUtil;
 import com.kirito.cloud.sso.model.CloudUser;
-import com.kirito.cloud.sso.pojo.SsoUserBO;
+import com.kirito.cloud.sso.pojo.bo.SsoUserBO;
 
 public class POJOConverter {
 

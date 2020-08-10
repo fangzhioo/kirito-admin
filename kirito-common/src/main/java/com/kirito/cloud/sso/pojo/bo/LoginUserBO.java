@@ -1,9 +1,9 @@
-package com.kirito.cloud.pojo;
+package com.kirito.cloud.sso.pojo.bo;
 
 import lombok.Data;
 
 @Data
-public class LoginUser {
+public class LoginUserBO {
     private String email;
     private String password;
     private Boolean remember = false;
