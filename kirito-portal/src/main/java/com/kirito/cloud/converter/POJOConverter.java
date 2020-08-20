@@ -85,9 +85,9 @@ public class POJOConverter {
         blogVideo.setTitle(videoVO.getTitle());
         blogVideo.setContent(videoVO.getContent());
         blogVideo.setSubtitle(videoVO.getDesc());
-        blogVideo.setCid(blogVideo.getCid());
-        blogVideo.setThumb(blogVideo.getThumb());
-        blogVideo.setStatus(blogVideo.getStatus());
+        blogVideo.setCid(videoVO.getCid());
+        blogVideo.setThumb(videoVO.getThumb());
+        blogVideo.setStatus(videoVO.getStatus());
         return blogVideo;
     }
 }
