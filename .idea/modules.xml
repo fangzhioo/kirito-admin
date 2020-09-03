@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/kirito-admin.iml" filepath="$PROJECT_DIR$/.idea/kirito-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kirito.iml" filepath="$PROJECT_DIR$/.idea/kirito.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kirito-auth/kirito-auth.iml" filepath="$PROJECT_DIR$/kirito-auth/kirito-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kirito-cloud.iml" filepath="$PROJECT_DIR$/kirito-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/kirito-common/kirito-common.iml" filepath="$PROJECT_DIR$/kirito-common/kirito-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kirito-demo/kirito-demo.iml" filepath="$PROJECT_DIR$/kirito-demo/kirito-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kirito-gateway/kirito-gateway.iml" filepath="$PROJECT_DIR$/kirito-gateway/kirito-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/kirito-mbg/kirito-mbg.iml" filepath="$PROJECT_DIR$/kirito-mbg/kirito-mbg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kirito-monitor/kirito-monitor.iml" filepath="$PROJECT_DIR$/kirito-monitor/kirito-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/kirito-portal/kirito-portal.iml" filepath="$PROJECT_DIR$/kirito-portal/kirito-portal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kirito-sso/kirito-sso.iml" filepath="$PROJECT_DIR$/kirito-sso/kirito-sso.iml" />
     </modules>
   </component>
 </project>
