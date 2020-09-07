@@ -20,724 +20,284 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4219cb7-8c0e-4a14-8dbd-313ec14d5dfd" name="Default Changelist" comment=":tada: 添加video相关api">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_config_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_discovery_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_annotations_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_core_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_micro_spring_boot_starter_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_boot_autoconfigure_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_boot_starter_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_ui_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_content_type_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_8_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_7_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_okhttp_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_49_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_logstash_logback_logstash_logback_encoder_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_25_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_3_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_client_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_resource_server_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/KiritoAuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/component/JwtTokenEnhancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/config/Oauth2ServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/constant/MessageConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/controller/KeyPairController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/domain/Oauth2TokenDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/domain/SecurityUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/exception/Oauth2ExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/service/UmsAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/service/UmsMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/resources/bootstrap-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/resources/bootstrap-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-auth/src/main/resources/jwt.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-cloud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/annotation/CacheException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/api/CommonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/api/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/api/IErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/api/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/config/BaseRedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/config/BaseSwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/constant/AuthConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/domain/SwaggerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/domain/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/domain/WebLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/exception/ApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/exception/Asserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/log/WebLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-common/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/kirito-gateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/authorization/AuthorizationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/component/RestAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/component/RestfulAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/config/IgnoreUrlsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/config/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/config/SwaggerResourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/filter/AuthGlobalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/filter/IgnoreUrlsRemoveJwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/handler/SwaggerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/resources/bootstrap-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/resources/bootstrap-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/CommentGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsHelpCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsHelpMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsMemberReportMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsPrefrenceAreaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsPrefrenceAreaProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectCommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsTopicCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsTopicCommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsTopicMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsCartItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsCompanyAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderOperateHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderReturnApplyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderReturnReasonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderSettingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PdmanDbVersionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsAlbumMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsAlbumPicMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsCommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsCommentReplayMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsFeightTemplateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsMemberPriceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductAttributeCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductAttributeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductAttributeValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductCategoryAttributeRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductFullReductionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductLadderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductOperateLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductVertifyRecordMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsSkuStockMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponProductCategoryRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionProductRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionSessionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeAdvertiseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeNewProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeRecommendProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeRecommendSubjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminPermissionRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminRoleRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsGrowthChangeHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsIntegrationChangeHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsIntegrationConsumeSettingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsMemberLevelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsMemberLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsMemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsMemberMemberTagRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsMemberProductCategoryRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsMemberReceiveAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsMemberRuleSettingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsMemberStatisticsInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsMemberTagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsMemberTaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsPermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsResourceCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsResourceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsRoleMenuRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsRolePermissionRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsRoleResourceRelationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelpCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelpCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsMemberReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsMemberReportExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceAreaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceAreaProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceAreaProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectCommentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicCommentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCartItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCompanyAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCompanyAddressExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderOperateHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderOperateHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnApply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnApplyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnReasonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderSettingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PdmanDbVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PdmanDbVersionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbumPic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbumPicExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsBrandExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsCommentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsCommentReplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsFeightTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsFeightTemplateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsMemberPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsMemberPriceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeValueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategoryAttributeRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategoryAttributeRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductFullReduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductFullReductionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductOperateLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductOperateLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductVertifyRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductVertifyRecordExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsSkuStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsSkuStockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCoupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductCategoryRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductCategoryRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionProductRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionProductRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionSessionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeAdvertise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeAdvertiseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeBrandExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeNewProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeNewProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendSubjectExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminLoginLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminPermissionRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminPermissionRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminRoleRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminRoleRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsGrowthChangeHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsGrowthChangeHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationChangeHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationChangeHistoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationConsumeSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationConsumeSettingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberLevelExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberLoginLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberMemberTagRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberMemberTagRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberProductCategoryRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberProductCategoryRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberReceiveAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberReceiveAddressExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberRuleSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberRuleSettingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberStatisticsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberStatisticsInfoExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberTagExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMemberTaskExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsMenuExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsPermissionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsResourceCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsResourceCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsResourceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsRoleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsRoleMenuRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsRoleMenuRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsRolePermissionRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsRolePermissionRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsRoleResourceRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsRoleResourceRelationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsHelpCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsHelpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsMemberReportMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsPrefrenceAreaMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsPrefrenceAreaProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectCommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsTopicCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsTopicCommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsTopicMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsCartItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsCompanyAddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderOperateHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderReturnApplyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderReturnReasonMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderSettingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PdmanDbVersionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsAlbumMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsAlbumPicMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsBrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsCommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsCommentReplayMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsFeightTemplateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsMemberPriceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductAttributeCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductAttributeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductAttributeValueMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductCategoryAttributeRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductFullReductionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductLadderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductOperateLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductVertifyRecordMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsSkuStockMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponProductCategoryRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionProductRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionSessionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeAdvertiseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeBrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeNewProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeRecommendProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeRecommendSubjectMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminLoginLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminPermissionRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminRoleRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsGrowthChangeHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsIntegrationChangeHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsIntegrationConsumeSettingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsMemberLevelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsMemberLoginLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsMemberMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsMemberMemberTagRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsMemberProductCategoryRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsMemberRuleSettingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsMemberStatisticsInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsMemberTagMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsMemberTaskMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsPermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsResourceCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsResourceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsRoleMenuRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsRolePermissionRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsRoleResourceRelationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/generator.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-monitor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-monitor/src/main/java/com/kirito/cloud/KiritoMonitorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-monitor/src/main/java/com/kirito/cloud/config/SecuritySecureConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-monitor/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-monitor/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-monitor/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/KiritoPortalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/config/JacksonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/config/SpringTaskConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/controller/MemberAttentionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/controller/MemberProductCollectionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/controller/MemberReadHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/controller/UmsMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/controller/UmsMemberReceiveAddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/dao/HomeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/domain/HomeContentResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/domain/MemberBrandAttention.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/domain/MemberProductCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/domain/MemberReadHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/repository/MemberBrandAttentionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/repository/MemberProductCollectionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/repository/MemberReadHistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/HomeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/MemberAttentionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/MemberCollectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/MemberReadHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/UmsMemberCacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/UmsMemberReceiveAddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/UmsMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/impl/HomeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/impl/MemberAttentionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/impl/MemberCollectionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/impl/MemberReadHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/impl/UmsMemberCacheServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/impl/UmsMemberReceiveAddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/resources/bootstrap-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/resources/bootstrap-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kirito-portal/src/main/resources/dao/HomeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/tongren.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/tongren.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kirito-admin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_5_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_discovery_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_android.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_2_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_22.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_22.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_35.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_35.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cloud_blog_2020-08-10.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cloud_sso_2020-08-03.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/kirito-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-common/kirito-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/CommonResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/Preconditions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/exception/CustomCheckException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/pojo/CommonUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/pojo/bo/AuthBO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/pojo/bo/PaginationBO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/portal/pojo/dto/ArticleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/portal/pojo/query/ArticleQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/portal/pojo/query/VideoQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/portal/pojo/vo/ArticleVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/portal/pojo/vo/VideoVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/sso/pojo/bo/LoginUserBO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/sso/pojo/bo/RegisterUserBO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/sso/pojo/bo/SsoUserBO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/sso/pojo/query/SsoUserQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/utils/AvatarUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/utils/CookieUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/utils/TokenUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-demo/kirito-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-demo/src/main/java/com/kirito/cloud/KiritoDemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-demo/src/main/java/com/kirito/cloud/controller/DemoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-demo/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/kirito-mbg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/kirito-mbg.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/generator/CommentGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/generator/PortalGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/generator/SSOGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/mapper/BlogArticleCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/mapper/BlogArticleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/mapper/BlogArticleTagMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/mapper/BlogArticleTagRelationshipMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/mapper/BlogCommentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/mapper/BlogCommmentReplyMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/mapper/BlogVideoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogArticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogArticleCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogArticleCategoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelpExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogArticleExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogArticleTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogArticleTagExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogArticleTagRelationship.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogArticleTagRelationshipExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductLadderExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogComment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogCommentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbumExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogCommmentReply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogCommmentReplyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsCommentReplayExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogVideo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/portal/model/BlogVideoExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/sso/mapper/CloudUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/sso/model/CloudUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/sso/model/CloudUserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/generator-portal.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/generator-sso.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/generatorConfig-Portal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/generatorConfig-SSO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/portal/BlogArticleCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionLogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/portal/BlogArticleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/portal/BlogArticleTagMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/portal/BlogArticleTagRelationshipMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/portal/BlogCommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/portal/BlogCommmentReplyMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/portal/BlogVideoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/sso/CloudUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/kirito-portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-portal/kirito-portal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/sh/docker-install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/admin/mall-admin-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin/mall-admin-dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/admin/mall-admin-prod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin/mall-admin-prod.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/demo/mall-demo-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/demo/mall-demo-dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/portal/mall-portal-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/portal/mall-portal-dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/search/mall-search-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/search/mall-search-dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/docker/docker-compose-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/document/docker/docker-compose-app.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/docker/docker-compose-env.yml" beforeDir="false" afterPath="$PROJECT_DIR$/document/docker/docker-compose-env.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/reference/deploy_windows.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/reference/deploy_windows.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/eclipse_import_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/eclipse_import_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/sql/mall.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/constant/AuthConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/constant/AuthConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsHelpCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsHelpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsMemberReportMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsPrefrenceAreaMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsPrefrenceAreaProductRelationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectCommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectProductRelationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsTopicCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsTopicCommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsTopicMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsCartItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsCompanyAddressMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderOperateHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderReturnApplyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderReturnReasonMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderSettingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PdmanDbVersionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsAlbumMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsAlbumPicMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsBrandMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsCommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsCommentReplayMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsFeightTemplateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsMemberPriceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductAttributeCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductAttributeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductAttributeValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductCategoryAttributeRelationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductFullReductionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductLadderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductOperateLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductVertifyRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsSkuStockMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponProductCategoryRelationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponProductRelationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionProductRelationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionSessionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeAdvertiseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeBrandMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeNewProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeRecommendProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeRecommendSubjectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminLoginLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminPermissionRelationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminRoleRelationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsGrowthChangeHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsIntegrationChangeHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsIntegrationConsumeSettingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelpCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelpCategoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelpExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsMemberReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsMemberReportExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceAreaExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceAreaProductRelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceAreaProductRelationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectCategoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectCommentExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectProductRelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectProductRelationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicCategoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicCommentExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCartItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCartItemExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCompanyAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCompanyAddressExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderItemExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderOperateHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderOperateHistoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnApply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnApplyExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnReasonExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderSetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderSettingExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PdmanDbVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PdmanDbVersionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbumExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbumPic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbumPicExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsBrand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsBrandExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsCommentExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsCommentReplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsCommentReplayExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsFeightTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsFeightTemplateExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsMemberPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsMemberPriceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttribute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeCategoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeValueExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategoryAttributeRelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategoryAttributeRelationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductFullReduction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductFullReductionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductLadder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductLadderExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductOperateLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductOperateLogExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductVertifyRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductVertifyRecordExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsSkuStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsSkuStockExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCoupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponHistoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductCategoryRelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductCategoryRelationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductRelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductRelationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionLogExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionProductRelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionProductRelationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionSessionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeAdvertise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeAdvertiseExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeBrand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeBrandExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeNewProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeNewProductExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendProductExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendSubjectExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminLoginLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminLoginLogExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminPermissionRelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminPermissionRelationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminRoleRelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminRoleRelationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsGrowthChangeHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsGrowthChangeHistoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationChangeHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationChangeHistoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationConsumeSetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationConsumeSettingExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsHelpCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsHelpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsMemberReportMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsPrefrenceAreaMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsPrefrenceAreaProductRelationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectCommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectProductRelationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsTopicCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsTopicCommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsTopicMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsCartItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsCompanyAddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderOperateHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderReturnApplyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderReturnReasonMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderSettingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PdmanDbVersionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsAlbumMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsAlbumPicMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsBrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsCommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsCommentReplayMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsFeightTemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsMemberPriceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductAttributeCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductAttributeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductAttributeValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductCategoryAttributeRelationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductFullReductionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductLadderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductOperateLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductVertifyRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsSkuStockMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponProductCategoryRelationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponProductRelationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionProductRelationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionSessionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeAdvertiseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeBrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeNewProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeRecommendProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeRecommendSubjectMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminLoginLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminPermissionRelationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminRoleRelationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsGrowthChangeHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsIntegrationChangeHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsIntegrationConsumeSettingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-monitor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-monitor/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kirito-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-portal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/KiritoPortalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud/KiritoGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/config/ApplicationContextConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/config/MybatisConf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/config/Swagger2Conf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/controller/AliossController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/controller/ArticleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/controller/VideoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/converter/POJOConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/handler/CustomExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/service/ArticleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/service/VideoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/service/impl/ArticleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/service/impl/VideoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/resources/application-dev.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-sso/kirito-sso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-auth/kirito-auth.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-sso/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-sso/src/main/java/com/kirito/cloud/KiritoSsoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-sso/src/main/java/com/kirito/cloud/config/MybatisConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud/portal/config/MyBatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-sso/src/main/java/com/kirito/cloud/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-sso/src/main/java/com/kirito/cloud/converter/POJOConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-sso/src/main/java/com/kirito/cloud/handler/CustomExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-sso/src/main/java/com/kirito/cloud/service/CloudUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-sso/src/main/java/com/kirito/cloud/service/impl/CloudUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-sso/src/main/resources/application-dev.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-sso/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-portal/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -796,14 +356,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kirito-monitor/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29310346" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -820,11 +380,11 @@
       <recent name="com.kirito.cloud.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/kirito-monitor/src/main/resources" />
       <recent name="$PROJECT_DIR$/kirito-gateway/src/main/resources" />
       <recent name="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud" />
       <recent name="$PROJECT_DIR$/kirito-portal/src/main/resources" />
-      <recent name="$PROJECT_DIR$/kirito-portal/src/main/java/com/kirito/cloud" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -888,15 +448,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="docker/docker-compose-env.yml.rabbitmq: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="rabbitmq" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="document/docker/docker-compose-env.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Generator" />
       <item itemvalue="Spring Boot.KiritoAuthApplication" />
       <item itemvalue="Spring Boot.KiritoMonitorApplication" />
       <item itemvalue="Spring Boot.KiritoPortalApplication" />
       <item itemvalue="Spring Boot.KiritoGatewayApplication" />
+      <item itemvalue="Docker.docker/docker-compose-env.yml.rabbitmq: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker/docker-compose-env.yml.rabbitmq: Compose Deployment" />
         <item itemvalue="Application.Generator" />
       </list>
     </recent_temporary>
@@ -924,7 +499,7 @@
       <workItem from="1598236129073" duration="885000" />
       <workItem from="1598433010144" duration="3278000" />
       <workItem from="1598842811219" duration="1872000" />
-      <workItem from="1598853639556" duration="11377000" />
+      <workItem from="1598853639556" duration="34084000" />
     </task>
     <task id="LOCAL-00001" summary=":tada: init">
       <created>1595314300251</created>
@@ -985,9 +560,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="603" y="320" key="#Notifications/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1596177496245" />
-    <state x="208" y="31" key="#Project_Structure" timestamp="1597916233517">
+    <state x="208" y="31" key="#Project_Structure" timestamp="1599138038793">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="208" y="31" key="#Project_Structure/0.0.1440.900/-480.-1057.1920.1057@0.0.1440.900" timestamp="1599138038793" />
     <state x="208" y="31" key="#Project_Structure/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1597916233517" />
     <state x="458" y="223" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1596166749031">
       <screen x="0" y="0" width="1440" height="900" />
@@ -1025,90 +601,90 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599039205441" />
-    <state width="1056" height="208" key="GridCell.Tab.0.bottom" timestamp="1599096668583">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1056" height="493" key="GridCell.Tab.0.bottom" timestamp="1599479272035">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1056" height="208" key="GridCell.Tab.0.bottom/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599039609853" />
+    <state width="1056" height="493" key="GridCell.Tab.0.bottom/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272035" />
     <state width="958" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596336770933" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856172" />
     <state width="958" height="250" key="GridCell.Tab.0.bottom/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259630" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.814/-480.-1057.1920.1057@0.23.1440.814" timestamp="1597216718674" />
     <state width="1056" height="208" key="GridCell.Tab.0.bottom/0.23.1440.816/-480.-1057.1920.1057@0.23.1440.816" timestamp="1599096668583" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1597399622973" />
-    <state width="1056" height="208" key="GridCell.Tab.0.center" timestamp="1599096668579">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1056" height="208" key="GridCell.Tab.0.bottom/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1599125445185" />
+    <state width="1056" height="493" key="GridCell.Tab.0.center" timestamp="1599479272033">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1056" height="208" key="GridCell.Tab.0.center/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599039609851" />
+    <state width="1056" height="493" key="GridCell.Tab.0.center/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272033" />
     <state width="958" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596336770931" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856169" />
     <state width="958" height="250" key="GridCell.Tab.0.center/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259627" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.814/-480.-1057.1920.1057@0.23.1440.814" timestamp="1597216718671" />
     <state width="1056" height="208" key="GridCell.Tab.0.center/0.23.1440.816/-480.-1057.1920.1057@0.23.1440.816" timestamp="1599096668579" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1597399622970" />
-    <state width="1056" height="208" key="GridCell.Tab.0.left" timestamp="1599096668577">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1056" height="208" key="GridCell.Tab.0.center/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1599125445173" />
+    <state width="1056" height="493" key="GridCell.Tab.0.left" timestamp="1599479272032">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1056" height="208" key="GridCell.Tab.0.left/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599039609850" />
+    <state width="1056" height="493" key="GridCell.Tab.0.left/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272032" />
     <state width="958" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596336770930" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856163" />
     <state width="958" height="250" key="GridCell.Tab.0.left/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259626" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.814/-480.-1057.1920.1057@0.23.1440.814" timestamp="1597216718668" />
     <state width="1056" height="208" key="GridCell.Tab.0.left/0.23.1440.816/-480.-1057.1920.1057@0.23.1440.816" timestamp="1599096668577" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1597399622969" />
-    <state width="1056" height="208" key="GridCell.Tab.0.right" timestamp="1599096668582">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1056" height="208" key="GridCell.Tab.0.left/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1599125445172" />
+    <state width="1056" height="493" key="GridCell.Tab.0.right" timestamp="1599479272034">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1056" height="208" key="GridCell.Tab.0.right/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599039609852" />
+    <state width="1056" height="493" key="GridCell.Tab.0.right/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272034" />
     <state width="958" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596336770933" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856170" />
     <state width="958" height="250" key="GridCell.Tab.0.right/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259628" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.814/-480.-1057.1920.1057@0.23.1440.814" timestamp="1597216718673" />
     <state width="1056" height="208" key="GridCell.Tab.0.right/0.23.1440.816/-480.-1057.1920.1057@0.23.1440.816" timestamp="1599096668582" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1597399622972" />
-    <state width="1056" height="208" key="GridCell.Tab.1.bottom" timestamp="1599096668585">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1056" height="208" key="GridCell.Tab.0.right/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1599125445175" />
+    <state width="1056" height="493" key="GridCell.Tab.1.bottom" timestamp="1599479272038">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="211" key="GridCell.Tab.1.bottom/0.0.1440.837/-480.-1057.1920.1057@0.0.1440.837" timestamp="1596190216967" />
-    <state width="1056" height="208" key="GridCell.Tab.1.bottom/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599039609857" />
+    <state width="1056" height="493" key="GridCell.Tab.1.bottom/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272038" />
     <state width="958" height="210" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596336770937" />
     <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856179" />
     <state width="958" height="250" key="GridCell.Tab.1.bottom/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259634" />
     <state width="958" height="210" key="GridCell.Tab.1.bottom/0.23.1440.814/-480.-1057.1920.1057@0.23.1440.814" timestamp="1596528849129" />
     <state width="1056" height="208" key="GridCell.Tab.1.bottom/0.23.1440.816/-480.-1057.1920.1057@0.23.1440.816" timestamp="1599096668585" />
-    <state width="958" height="250" key="GridCell.Tab.1.bottom/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1597399622960" />
-    <state width="1056" height="208" key="GridCell.Tab.1.center" timestamp="1599096668584">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1056" height="208" key="GridCell.Tab.1.bottom/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1599125445209" />
+    <state width="1056" height="493" key="GridCell.Tab.1.center" timestamp="1599479272036">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="211" key="GridCell.Tab.1.center/0.0.1440.837/-480.-1057.1920.1057@0.0.1440.837" timestamp="1596190216958" />
-    <state width="1056" height="208" key="GridCell.Tab.1.center/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599039609855" />
+    <state width="1056" height="493" key="GridCell.Tab.1.center/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272036" />
     <state width="958" height="210" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1596336770935" />
     <state width="1398" height="245" key="GridCell.Tab.1.center/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856176" />
     <state width="958" height="250" key="GridCell.Tab.1.center/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259632" />
     <state width="958" height="210" key="GridCell.Tab.1.center/0.23.1440.814/-480.-1057.1920.1057@0.23.1440.814" timestamp="1596528849124" />
     <state width="1056" height="208" key="GridCell.Tab.1.center/0.23.1440.816/-480.-1057.1920.1057@0.23.1440.816" timestamp="1599096668584" />
-    <state width="958" height="250" key="GridCell.Tab.1.center/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1597399622958" />
-    <state width="1056" height="208" key="GridCell.Tab.1.left" timestamp="1599096668583">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1056" height="208" key="GridCell.Tab.1.center/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1599125445206" />
+    <state width="1056" height="493" key="GridCell.Tab.1.left" timestamp="1599479272035">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="211" key="GridCell.Tab.1.left/0.0.1440.837/-480.-1057.1920.1057@0.0.1440.837" timestamp="1596190216957" />
-    <state width="1056" height="208" key="GridCell.Tab.1.left/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599039609854" />
+    <state width="1056" height="493" key="GridCell.Tab.1.left/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272035" />
     <state width="958" height="210" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1596336770934" />
     <state width="1398" height="245" key="GridCell.Tab.1.left/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856174" />
     <state width="958" height="250" key="GridCell.Tab.1.left/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259631" />
     <state width="958" height="210" key="GridCell.Tab.1.left/0.23.1440.814/-480.-1057.1920.1057@0.23.1440.814" timestamp="1596528849122" />
     <state width="1056" height="208" key="GridCell.Tab.1.left/0.23.1440.816/-480.-1057.1920.1057@0.23.1440.816" timestamp="1599096668583" />
-    <state width="958" height="250" key="GridCell.Tab.1.left/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1597399622956" />
-    <state width="1056" height="208" key="GridCell.Tab.1.right" timestamp="1599096668585">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state width="1056" height="208" key="GridCell.Tab.1.left/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1599125445189" />
+    <state width="1056" height="493" key="GridCell.Tab.1.right" timestamp="1599479272037">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="211" key="GridCell.Tab.1.right/0.0.1440.837/-480.-1057.1920.1057@0.0.1440.837" timestamp="1596190216963" />
-    <state width="1056" height="208" key="GridCell.Tab.1.right/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599039609856" />
+    <state width="1056" height="493" key="GridCell.Tab.1.right/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272037" />
     <state width="958" height="210" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1596336770936" />
     <state width="1398" height="245" key="GridCell.Tab.1.right/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856178" />
     <state width="958" height="250" key="GridCell.Tab.1.right/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259633" />
     <state width="958" height="210" key="GridCell.Tab.1.right/0.23.1440.814/-480.-1057.1920.1057@0.23.1440.814" timestamp="1596528849127" />
     <state width="1056" height="208" key="GridCell.Tab.1.right/0.23.1440.816/-480.-1057.1920.1057@0.23.1440.816" timestamp="1599096668585" />
-    <state width="958" height="250" key="GridCell.Tab.1.right/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1597399622959" />
+    <state width="1056" height="208" key="GridCell.Tab.1.right/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1599125445207" />
     <state width="958" height="210" key="GridCell.Tab.2.bottom" timestamp="1596509250194">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -1133,10 +709,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1596188854798" />
-    <state x="421" y="176" width="643" height="548" key="find.popup" timestamp="1599037830551">
+    <state x="421" y="176" width="643" height="548" key="find.popup" timestamp="1599136665109">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="176" width="643" height="548" key="find.popup/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599037830551" />
+    <state x="421" y="176" width="643" height="548" key="find.popup/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599136665109" />
     <state x="405" y="245" key="git4idea.merge.GitPullDialog" timestamp="1596188694494">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

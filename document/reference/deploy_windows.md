@@ -7,7 +7,7 @@
 简易环境搭建流程：
 
 - 安装IDEA并导入项目源码；
-- 安装MySql，创建一个`mall`数据库，并导入`/document/sql/mall.sql`文件；
+- 安装MySql，创建一个`mall`数据库，并导入`/document/sql/*.sql`文件；
 - 安装Redis、Elasticsearch、MongoDB、RabbitMQ等环境。
 
 ## 项目部署

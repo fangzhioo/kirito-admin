@@ -17,8 +17,8 @@ public class SwaggerConfig extends BaseSwaggerConfig {
     public SwaggerProperties swaggerProperties() {
         return SwaggerProperties.builder()
                 .apiBasePackage("com.kirito.cloud.auth.controller")
-                .title("mall认证中心")
-                .description("mall认证中心相关接口文档")
+                .title("kirito认证中心")
+                .description("kirito认证中心相关接口文档")
                 .contactName("macro")
                 .version("1.0")
                 .enableSecurity(true)
