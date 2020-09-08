@@ -20,285 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4219cb7-8c0e-4a14-8dbd-313ec14d5dfd" name="Default Changelist" comment=":tada: 添加video相关api">
-      <change afterPath="$PROJECT_DIR$/document/sh/docker-install.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/docker/redis.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/admin/mall-admin-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin/mall-admin-dev.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/admin/mall-admin-prod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin/mall-admin-prod.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/demo/mall-demo-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/demo/mall-demo-dev.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/portal/mall-portal-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/portal/mall-portal-dev.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/search/mall-search-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/search/mall-search-dev.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/docker/docker-compose-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/document/docker/docker-compose-app.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/document/docker/docker-compose-env.yml" beforeDir="false" afterPath="$PROJECT_DIR$/document/docker/docker-compose-env.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/reference/deploy_windows.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/reference/deploy_windows.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/eclipse_import_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/eclipse_import_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_run_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/resource/mall_swarm_windows_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/sql/mall.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-auth/src/main/java/com/kirito/cloud/auth/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/constant/AuthConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-common/src/main/java/com/kirito/cloud/common/constant/AuthConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsHelpCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsHelpMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsMemberReportMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsPrefrenceAreaMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsPrefrenceAreaProductRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectCommentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsSubjectProductRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsTopicCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsTopicCommentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/CmsTopicMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsCartItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsCompanyAddressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderOperateHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderReturnApplyMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderReturnReasonMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/OmsOrderSettingMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PdmanDbVersionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsAlbumMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsAlbumPicMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsBrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsCommentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsCommentReplayMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsFeightTemplateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsMemberPriceMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductAttributeCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductAttributeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductAttributeValueMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductCategoryAttributeRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductFullReductionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductLadderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductOperateLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsProductVertifyRecordMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/PmsSkuStockMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponProductCategoryRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsCouponProductRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionProductRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsFlashPromotionSessionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeAdvertiseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeBrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeNewProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeRecommendProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/SmsHomeRecommendSubjectMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminLoginLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminPermissionRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsAdminRoleRelationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsGrowthChangeHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsIntegrationChangeHistoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/mapper/UmsIntegrationConsumeSettingMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelpCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelpCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsHelpExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsMemberReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsMemberReportExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceAreaExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceAreaProductRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsPrefrenceAreaProductRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectComment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectCommentExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectProductRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsSubjectProductRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicComment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicCommentExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/CmsTopicExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCartItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCartItemExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCompanyAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsCompanyAddressExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderItemExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderOperateHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderOperateHistoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnApply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnApplyExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnReason.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderReturnReasonExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderSetting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/OmsOrderSettingExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PdmanDbVersion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PdmanDbVersionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbumExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbumPic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsAlbumPicExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsBrand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsBrandExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsComment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsCommentExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsCommentReplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsCommentReplayExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsFeightTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsFeightTemplateExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsMemberPrice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsMemberPriceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductAttributeValueExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategoryAttributeRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategoryAttributeRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductCategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductFullReduction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductFullReductionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductLadder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductLadderExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductOperateLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductOperateLogExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductVertifyRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsProductVertifyRecordExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsSkuStock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/PmsSkuStockExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCoupon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponHistoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductCategoryRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductCategoryRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsCouponProductRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionLogExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionProductRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionProductRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsFlashPromotionSessionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeAdvertise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeAdvertiseExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeBrand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeBrandExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeNewProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeNewProductExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendProductExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendSubject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/SmsHomeRecommendSubjectExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdmin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminLoginLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminLoginLogExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminPermissionRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminPermissionRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminRoleRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsAdminRoleRelationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsGrowthChangeHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsGrowthChangeHistoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationChangeHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationChangeHistoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationConsumeSetting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/java/com/kirito/cloud/model/UmsIntegrationConsumeSettingExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsHelpCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsHelpMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsMemberReportMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsPrefrenceAreaMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsPrefrenceAreaProductRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectCommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsSubjectProductRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsTopicCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsTopicCommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/CmsTopicMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsCartItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsCompanyAddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderOperateHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderReturnApplyMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderReturnReasonMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/OmsOrderSettingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PdmanDbVersionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsAlbumMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsAlbumPicMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsBrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsCommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsCommentReplayMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsFeightTemplateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsMemberPriceMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductAttributeCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductAttributeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductAttributeValueMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductCategoryAttributeRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductFullReductionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductLadderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductOperateLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsProductVertifyRecordMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/PmsSkuStockMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponProductCategoryRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsCouponProductRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionProductRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsFlashPromotionSessionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeAdvertiseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeBrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeNewProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeRecommendProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/SmsHomeRecommendSubjectMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminLoginLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminPermissionRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsAdminRoleRelationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsGrowthChangeHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsIntegrationChangeHistoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/com/kirito/cloud/mapper/UmsIntegrationConsumeSettingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-mbg/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-mbg/src/main/resources/generator.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-monitor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-monitor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kirito-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-gateway/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-gateway/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-gateway/src/main/resources/bootstrap-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-gateway/src/main/resources/bootstrap-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-portal/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-portal/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirito-portal/src/main/resources/bootstrap-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kirito-portal/src/main/resources/bootstrap-prod.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -356,7 +88,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/document/docker" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -380,11 +112,11 @@
       <recent name="com.kirito.cloud.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/document/docker" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/kirito-monitor/src/main/resources" />
       <recent name="$PROJECT_DIR$/kirito-gateway/src/main/resources" />
       <recent name="$PROJECT_DIR$/kirito-gateway/src/main/java/com/kirito/cloud" />
-      <recent name="$PROJECT_DIR$/kirito-portal/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -404,6 +136,53 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="kirito-common" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="kirito-common" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -463,14 +242,16 @@
     </configuration>
     <list>
       <item itemvalue="Application.Generator" />
+      <item itemvalue="Docker.docker/docker-compose-env.yml.rabbitmq: Compose Deployment" />
       <item itemvalue="Spring Boot.KiritoAuthApplication" />
       <item itemvalue="Spring Boot.KiritoMonitorApplication" />
       <item itemvalue="Spring Boot.KiritoPortalApplication" />
       <item itemvalue="Spring Boot.KiritoGatewayApplication" />
-      <item itemvalue="Docker.docker/docker-compose-env.yml.rabbitmq: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker/docker-compose-env.yml.rabbitmq: Compose Deployment" />
+        <item itemvalue="Application.Generator" />
         <item itemvalue="Docker.docker/docker-compose-env.yml.rabbitmq: Compose Deployment" />
         <item itemvalue="Application.Generator" />
       </list>
@@ -601,40 +382,40 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599039205441" />
-    <state width="1056" height="493" key="GridCell.Tab.0.bottom" timestamp="1599479272035">
+    <state width="1398" height="130" key="GridCell.Tab.0.bottom" timestamp="1599528922066">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1056" height="493" key="GridCell.Tab.0.bottom/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272035" />
+    <state width="1398" height="130" key="GridCell.Tab.0.bottom/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599528922066" />
     <state width="958" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596336770933" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856172" />
     <state width="958" height="250" key="GridCell.Tab.0.bottom/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259630" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.814/-480.-1057.1920.1057@0.23.1440.814" timestamp="1597216718674" />
     <state width="1056" height="208" key="GridCell.Tab.0.bottom/0.23.1440.816/-480.-1057.1920.1057@0.23.1440.816" timestamp="1599096668583" />
     <state width="1056" height="208" key="GridCell.Tab.0.bottom/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1599125445185" />
-    <state width="1056" height="493" key="GridCell.Tab.0.center" timestamp="1599479272033">
+    <state width="1398" height="130" key="GridCell.Tab.0.center" timestamp="1599528922064">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1056" height="493" key="GridCell.Tab.0.center/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272033" />
+    <state width="1398" height="130" key="GridCell.Tab.0.center/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599528922064" />
     <state width="958" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596336770931" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856169" />
     <state width="958" height="250" key="GridCell.Tab.0.center/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259627" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.814/-480.-1057.1920.1057@0.23.1440.814" timestamp="1597216718671" />
     <state width="1056" height="208" key="GridCell.Tab.0.center/0.23.1440.816/-480.-1057.1920.1057@0.23.1440.816" timestamp="1599096668579" />
     <state width="1056" height="208" key="GridCell.Tab.0.center/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1599125445173" />
-    <state width="1056" height="493" key="GridCell.Tab.0.left" timestamp="1599479272032">
+    <state width="1398" height="130" key="GridCell.Tab.0.left" timestamp="1599528922063">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1056" height="493" key="GridCell.Tab.0.left/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272032" />
+    <state width="1398" height="130" key="GridCell.Tab.0.left/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599528922063" />
     <state width="958" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596336770930" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856163" />
     <state width="958" height="250" key="GridCell.Tab.0.left/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259626" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.814/-480.-1057.1920.1057@0.23.1440.814" timestamp="1597216718668" />
     <state width="1056" height="208" key="GridCell.Tab.0.left/0.23.1440.816/-480.-1057.1920.1057@0.23.1440.816" timestamp="1599096668577" />
     <state width="1056" height="208" key="GridCell.Tab.0.left/0.23.1440.822/-480.-1057.1920.1057@0.23.1440.822" timestamp="1599125445172" />
-    <state width="1056" height="493" key="GridCell.Tab.0.right" timestamp="1599479272034">
+    <state width="1398" height="130" key="GridCell.Tab.0.right" timestamp="1599528922065">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1056" height="493" key="GridCell.Tab.0.right/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599479272034" />
+    <state width="1398" height="130" key="GridCell.Tab.0.right/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599528922065" />
     <state width="958" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596336770933" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.808/-480.-1057.1920.1057@0.23.1440.808" timestamp="1595313856170" />
     <state width="958" height="250" key="GridCell.Tab.0.right/0.23.1440.812/-480.-1057.1920.1057@0.23.1440.812" timestamp="1597058259628" />
@@ -709,10 +490,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1596188854798" />
-    <state x="421" y="176" width="643" height="548" key="find.popup" timestamp="1599136665109">
+    <state x="421" y="176" width="643" height="548" key="find.popup" timestamp="1599531506381">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="176" width="643" height="548" key="find.popup/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599136665109" />
+    <state x="421" y="176" width="643" height="548" key="find.popup/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1599531506381" />
     <state x="405" y="245" key="git4idea.merge.GitPullDialog" timestamp="1596188694494">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
