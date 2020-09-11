@@ -63,7 +63,6 @@ secure:
       - "/kirito-portal/brand/**"
       - "/kirito-admin/admin/login"
       - "/kirito-admin/admin/register"
-      - "/kirito-admin/minio/upload"
 management: #开启SpringBoot Admin的监控
   endpoints:
     web:

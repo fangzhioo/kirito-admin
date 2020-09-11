@@ -34,3 +34,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+.settings
+.project
+.classpath
+.factorypath

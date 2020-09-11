@@ -35,15 +35,17 @@ services:
     image: mongo:4.2.5
     container_name: mongo
     volumes:
-      - /mydata/mongo/db:/data/db #数据文件挂载
+      - /mydata/mongo/db:/data/db # 数据文件挂载
     ports:
       - 27017:27017
   nacos-registry:
     image: nacos/nacos-server:1.3.0
     container_name: nacos-registry
-    restart: unless-stopped
+    restart: always
     environment:
       - "MODE=standalone"
+    volumes:
+      - /mydata/nacos/logs/:/home/nacos/logs
     ports:
       - 8848:8848
 
@@ -79,7 +81,7 @@ services:
 #      volumes:
 #        - /mydata/logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf #挂载logstash的配置文件
 #      depends_on:
-#        - elasticsearch #kibana在elasticsearch启动之后再启动
+#        - elasticsearch #logstash在elasticsearch启动之后再启动
 #      links:
 #        - elasticsearch:es #可以用es这个域名访问elasticsearch服务
 #      ports:

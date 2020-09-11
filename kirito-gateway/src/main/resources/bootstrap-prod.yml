@@ -22,5 +22,5 @@ logging:
   file:
     path: /var/logs
   level:
-    root: info
-    com.kirito.cloud: info
+    root: warn
+    com.kirito.cloud: error

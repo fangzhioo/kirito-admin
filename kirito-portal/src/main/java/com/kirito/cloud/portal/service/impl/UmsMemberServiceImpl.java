@@ -80,7 +80,7 @@ public class UmsMemberServiceImpl implements UmsMemberService {
         example.or(example.createCriteria().andPhoneEqualTo(telephone));
         List<UmsMember> umsMembers = memberMapper.selectByExample(example);
         if (!CollectionUtils.isEmpty(umsMembers)) {
-            Asserts.fail("该用户已经存在");
+            Asserts.fail("该用户已经存在(用户名或者手机号重复！)");
         }
         //没有该用户进行添加操作
         UmsMember umsMember = new UmsMember();

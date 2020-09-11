@@ -17,8 +17,15 @@ import org.springframework.web.bind.annotation.*;
 @Api(tags = "HomeController", description = "首页内容管理")
 @RequestMapping("/home")
 public class HomeController {
-    @Autowired
+
     private HomeService homeService;
+
+    @Autowired
+    public void setHomeService(HomeService homeService) {
+        // 没有直接在变量上添加Autowired注解的原因参考 http://code.aone.alibaba-inc.com/dt/op-daas/codereview
+        this.homeService = homeService;
+    }
+
 
     @ApiOperation("首页内容页信息展示")
     @RequestMapping(value = "/content", method = RequestMethod.GET)

@@ -202,6 +202,8 @@
     <logger name="org.springframework" level="INFO"/>
     <logger name="org.hibernate.validator" level="INFO"/>
     <logger name="com.alibaba.nacos.client.naming" level="INFO"/>
+    <logger name="org.mongodb.driver" level="INFO"/>
+    <logger name="io.lettuce.core" level="INFO"/>
 
     <root level="DEBUG">
         <appender-ref ref="CONSOLE"/>
